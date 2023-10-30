@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5em;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+.logo img {
+    height: 8vh;
+    width: 15vw;
+    cursor: pointer;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.items {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    cursor: pointer;
+    color: #adadad;
+}
+.active{
+    color: white;
+}
+.items:hover {
+    color: #e0e0e0;
+}
+.items a{
+    text-decoration: none;
+    color: inherit;
+}
+.nav-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20vw;
+}
+.btns {
+    padding: 0.7em;
+    font-size: 0.8em;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 3%;
+}
+
+.trade {
+    background-color: #3fb589;
+    border: none;
+    margin-right: 1em;
+}
+.conn-wallet{
+    border: 0.1em solid white;
+}
+.conn-wallet div {
+    display: flex;
+    align-items: center;
+    
+}
+.eth-btn{
+    padding: 0.05em;
+    border: 0.1em solid white;
+}
+
+.heading{
+    margin-top: 5em;
+    margin-left: 8em;
+    width: 40vw;
+}
+.heading h1{
+    font-size: 4em;
+}
+.heading p{
+    margin-top: 2em;
+    color: #adadad;
+    letter-spacing: 0.06em;
+    font-size: 1.3em;
+}
+.exch-btn{
+    background-color: #3fb589;
+    border: none;
+    color: white;
+    padding: 1em;
+    margin-top: 1.5em;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.statistics{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+}
+.stats-items{
+    display: flex;
+    cursor: pointer;
+    border: 1px solid #7c7b7b;
+    padding: 2em;
+    border-radius: 3%;
+}
+.logo{
+    margin-right: 2em;
+}
+.details h3{
+    color: #adadad;
+}
+.details p{
+    font-size: 2em;
+    font-weight: bold;
+}
+.marketting-info{
+    margin-top: 15vh;
+    padding-top: 5vh;
+    border-top: 0.5px solid #adadad;
+    border-bottom: 0.5px solid #adadad;
+}
+.benefits-list{
+    list-style: none;
+    display: flex;
+    margin-top: 15vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    justify-content: space-around;
+}
+.benefits{
+    max-width: 17vw;
+}
+.benefit_heading{
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+.benefit_heading img{
+    padding-right: 1.25em;
+}
+.benefit_descp{
+    margin-top: 1.5em;
+    color: #a9a9a9;
+}
+.token-info{
+    margin-top: 20vh;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    padding-bottom: 15vh;
+}
+.token_heading{
+    width: 30vw;
+    font-size: 2.2em;
+}
+.tokens{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+.zomi, .zlp{
+    border: 0.5px solid #7c7b7b;
+    border-radius: 3%;
+    margin-left: 1em;
+    padding: 2em;
+}
+.token_name{
+    font-weight: 400;
+}
+.token_descp{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.eth{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #a9a9a9;
+}
+.buy-btn{
+    background-color: #3fb589;
+    border: none;
+    color: white;
+    padding: 1em;
+    margin-top: 1.5em;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.buy-btn:hover{
+    background-color: #328a6a;
+}
+.read-more-btn{
+    padding: 1em;
+    font-size: 0.8em;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 3%;
+    border: 1px solid white;
+}
+.footer{
+    padding-top: 5vh;
+    text-align: center;
+}
+.footer-logo img {
+    height: 8vh;
+    width: 15vw;
+    cursor: pointer;
+}
+.social-icons{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.icons-items{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+li.icons-items svg g:hover {
+    fill: white;
+    cursor: pointer;
+}
